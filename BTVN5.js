@@ -6,7 +6,7 @@ let le = 0;
 for (let i = 0; i <= mang.length - 1; i = i + 1){
     if (Number.isInteger(mang[i])){
         if(mang[i]%2 === 0){
-            chan = Number(mang[i] + chan);
+            chan = Number(mang[i]) + chan;
         }
         else {
             le = Number(mang[i]) + le;
